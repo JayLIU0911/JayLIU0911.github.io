@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Mr. Ji Liu"
 title_separator          : "-"
-name                     : &name "Mr. Ji Li"
-description              : &description "Research scientist at Test University"
+name                     : &name "Mr. Ji Liu"
+description              : &description "Year 4 student major in Computer Science at HKUST"
 url                      : https://JayLIU0911.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JayLIU0911.github.io"
@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Test Account"
+  name             : "Mr. Ji Liu"
   avatar           : "profile.png"
-  bio              : "Research scientist at Test University, expert in all things test and account related"
-  location         : "Test, California"
+  bio              : "Year 4 student major in Computer Science at the Hong Kong University of Science and Technology"
+  location         : "Hong Kong"
   employer         : 
-  googlescholar    : "http://scholar.google.com/this-is-a-test"
+  googlescholar    : #"http://scholar.google.com/this-is-a-test"
   email            : 
   uri              : 
   bitbucket        :
@@ -91,19 +91,19 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "getorg-testacct"
+  github           : "JayLIU0911"
   google_plus      :
   keybase          :
   instagram        : 
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/testaccount"
+  orcid            : #"http://orcid.org/testaccount"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "testaccount-this-is-fake"
+  twitter          : #"testaccount-this-is-fake"
   vine             :
   weibo            :
   xing             :
