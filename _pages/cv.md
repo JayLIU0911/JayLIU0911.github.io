@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-The Hong Kong University of Science and Technology (HKUST), Sep 2015 – Jun 2019  
+The Hong Kong University of Science and Technology (HKUST), Sep 2015 – Jun 2019
+
 Bachelor of Engineering in Computer Science (CGPA: 3.7 / 4.3 – Expected First Class Honors)
 * Academic Exchange: Georgia Institute of Technology, US (Jan – May 2018)
 * Awards: University's Scholarship Scheme for Continuing Undergraduate Students (Awarded to the top 10th percentile of all UG students), Dean’s Lists, HKSAR Talent Development Scholarship, SOONG CHING LING Scholarship, National Second Prize in 29th China Adolescents Science and Technology Innovation Contest
