@@ -7,10 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-**Ji Liu**\*, Heshan Liu\*, Yu-Wing Tai, Chi-Keung Tang. High-Resolution Pose Transfer via Progressive Training and Pose Disentangling. Submitted to *CVPR'19*. (\*Equal contributions)
-* Project demo: *To be uploaded soon*
-* Novelty:
-  * To disentangle structure and appearance inherent in a given reference image, we propose a new encoder-decoder architecture that successfully enables seamless human pose transfer
-  * We propose novel local descriptors to enhance the generation quality and local details
-  * We apply progressive training to our autoencoder architecture to achieve outputs of unprecedented high resolution (1024 x 1024)
-* Results: We can transfer in high resolution on Human3.6M, DeepFashion and a self-collected YouTube dataset
+**3D Snake Game**
+* A first-person perspective 3D snake game built from WebGL.
+* Project link: https://jayliu0911.github.io/3D-Snake-Game-COMP5411
+
+**Infectious Disease Spreading Pattern Visualizer**
+* A website to interactively visualize the global distribution and spreading pattern of various infectious diseases
+* Project link: https://jayliu0911.github.io/Infectious-Disease-Spreading-Pattern-Visualizer-CX4242
+
+**Line Dieting Chatbot**
+* A chatbot that provides personalized meal recommendation based on user’s eating habit, with features including optical character recognition for menu (Java Spring, Heroku, PostgreSQL, Gradle, JUnit, Mockito, UML)
+* Project github: https://github.com/JayLIU0911/Diet-Chatbot-COMP3111
