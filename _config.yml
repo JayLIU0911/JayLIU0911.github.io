@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Mr. Ji Liu"
   avatar           : "profile.png"
-  bio              : "Year 4 student major in Computer Science at the Hong Kong University of Science and Technology"
-  location         : "Hong Kong"
+  bio              : "Year 4 student major in CS"
+  location         : "HKUST, Hong Kong"
   employer         : 
   googlescholar    : #"http://scholar.google.com/this-is-a-test"
   email            : 
@@ -109,6 +109,7 @@ author:
   xing             :
   youtube          :
   wikipedia        : 
+  email            : "jliubk@connect.ust.hk"
 
 
 # Reading Files
