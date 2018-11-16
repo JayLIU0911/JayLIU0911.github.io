@@ -39,13 +39,15 @@ RESEARCH EXPERIENCE
   * Duties included: Running Tests
   * Supervisor: Professor Travis
 
-Publications
+
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Talks
+Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -55,8 +57,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul -->>
+  {% endfor %}</ul>
   
 Service and leadership
 ======
-* Currently signed in to 49 different slack teams
+* Currently signed in to 49 different slack teams -->
