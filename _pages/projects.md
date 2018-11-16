@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+afds
+
 **3D Snake Game**
 * A first-person perspective 3D snake game built from WebGL.
 * Project link: https://jayliu0911.github.io/3D-Snake-Game-COMP5411
