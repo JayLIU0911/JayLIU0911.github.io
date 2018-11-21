@@ -16,7 +16,7 @@ author_profile: true
 {% endfor %} -->
 
 **Ji Liu**\*, Heshan Liu\*, Yu-Wing Tai, Chi-Keung Tang. High-Resolution Pose Transfer via Progressive Training and Pose Disentangling. (\*Equal contributions)
-* Project demo: [*To be uploaded soon*](https://jayliu0911.github.io/ck3/index.html)
+* Project demo: [*To be uploaded soon*](https://jayliu0911.github.io/supp_material/index.html)
 * Novelty:
   * To disentangle structure and appearance inherent in a given reference image, we propose a new encoder-decoder architecture that successfully enables seamless human pose transfer
   * We propose novel local descriptors to enhance the generation quality and local details
