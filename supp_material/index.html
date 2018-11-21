@@ -164,170 +164,36 @@
         <p align="left" style="font-size:1.4em;">Then we present our results on UCF-101 dataset to illustrate our model's effectiveness in real-world. Input frames are labeled in the same fashion. Video action class includes <strong>JumpingJack, JumpingRope, TaiChi</strong>, which will be labeled accordingly.</p>
   </div>
   <div class="container-fluid bg-3 text-center">
+
     <div class="row">
-      <h3>Video Generation - Human 3.6m</h3>
+      <h3>Comparison with Cai's work on human video generation</h3>
     </div>
     <div class="row">
       <div class="col-sm-2 col-sm-offset-2">
-        <h3>Real</h3>
-        <video width="400" controls autoplay loop>
+        <h3>Target Pose</h3>
+        <video width="700" controls autoplay loop>
         <source src="qua_res/gt/Walking.mp4" type="video/mp4">
 
       </video>
       </div>
       <div class="col-sm-2">
-        <h3>VGAN</h3>
-        <video width="400" controls autoplay loop>
+        <h3>Cai's</h3>
+        <video width="700" controls autoplay loop>
         <source src="qua_res/vgan/Walking.mp4" type="video/mp4">
 
       </video>
       </div>
       <div class="col-sm-2">
         <h3 id="ours">Ours</h3>
-        <video width="400" controls autoplay loop>
+        <video width="700" controls autoplay loop>
         <source src="qua_res/ours_gen/Walking.mp4" type="video/mp4">
 
       </video>
       </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours-Pose</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen_pose/Walking.mp4" type="video/mp4">
-
-      </video>
-      </div>
-
     </div>
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
-        <h3>Real</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/gt/Directions.mp4" type="video/mp4">
 
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3>VGAN</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/vgan/Directions.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen/Directions.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours-Pose</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen_pose/Directions.mp4" type="video/mp4">
-
-      </video>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
-        <h3>Real</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/gt/Greeting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3>VGAN</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/vgan/Greeting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen/Greeting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours-Pose</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen_pose/Greeting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
-        <h3>Real</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/gt/Sitting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3>VGAN</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/vgan/Sitting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen/Sitting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours-Pose</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen_pose/Sitting.mp4" type="video/mp4">
-
-      </video>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
-        <h3>Real</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/gt/SittingDown.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3>VGAN</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/vgan/SittingDown.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen/SittingDown.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours-Pose</h3>
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ours_gen_pose/SittingDown.mp4" type="video/mp4">
-
-      </video>
-      </div>
-
-    </div>
   </div>
 </div>
-
-
-
-  <!-- <footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer> -->
 
 </body>
 <script>
