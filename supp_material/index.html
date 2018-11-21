@@ -95,7 +95,51 @@
   <div class="jumbotron" id="teaser">
     <div class="container text-center">
       <h2>1024 x 1024 Test Results on Human3.6M</h2>
-      <div class="row">
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-3">
+        <img src="materials/teaser.png" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center" id="videos">
+    <h2>Pose-Guided Human Video Generation</h2>
+    <p align="left" style="font-size:1.4em;"><strong>Note</strong>: In this section we present an application of HPN on Pose-Guided Human Video Generation<p> 
+    <p align="left" style="font-size:1.4em;"><strong>1</strong>. We compare our generation results with Cai's work in "Deep video generation,
+prediction and completion of human action sequences" (ECCV 2018)</p>
+    <p align="left" style="font-size:1.4em;"><strong>2</strong>. We present additional results on Pose-Guided Human Video Generation</p>
+  </div>
+  <div class="container-fluid bg-3 text-center">
+
+    <div class="row">
+      <h3>Comparison with Cai's work on human video generation</h3>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-sm-offset-2">
+        <h3>Target Pose</h3>
+        <video width="400" controls autoplay loop>
+        <source src="qua_res/gt/Walking.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-sm-2">
+        <h3>Cai's</h3>
+        <video width="400" controls autoplay loop>
+        <source src="qua_res/vgan/Walking.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-sm-2">
+        <h3 id="ours">Ours</h3>
+        <video width="400" controls autoplay loop>
+        <source src="qua_res/ours_gen/Walking.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="row">
+      <h3>Comparison with Cai's work on human video generation</h3>
+    </div>
+    <div class="row">
       <div class="col-sm-3 col-sm-offset-3">
         <h4>Reference Image</h4>
         <img src="qua_res/ucf_teaser/ucf1_ref.jpg" class="img-responsive" style="width:100%" alt="Image">
@@ -109,87 +153,6 @@
       </video>
       </div>
 
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-3">
-
-        <img src="qua_res/ucf_teaser/ucf2_ref.png" class="img-responsive" style="width:100%" alt="Image">
-
-      </div>
-      <div class="col-sm-3">
-
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ucf_teaser/ucf2.mp4" type="video/mp4">
-
-      </video>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-3">
-
-        <img src="qua_res/ucf_teaser/ucf3_ref.jpg" class="img-responsive" style="width:100%" alt="Image">
-
-      </div>
-      <div class="col-sm-3">
-
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ucf_teaser/ucf3.mp4" type="video/mp4">
-
-      </video>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-3">
-
-        <img src="qua_res/ucf_teaser/gump_ref.png" class="img-responsive" style="width:100%" alt="Image">
-
-      </div>
-      <div class="col-sm-3">
-
-        <video width="400" controls autoplay loop>
-        <source src="qua_res/ucf_teaser/gump.mp4" type="video/mp4">
-
-      </video>
-      </div>
-    </div>
-    </div>
-  </div>
-
-  <div class="container-fluid text-center" id="videos">
-    <h2>Pose-Guided Human Video Generation</h2>
-    <p align="left" style="font-size:1.4em;"><strong>Note</strong>: Each following section corresponds to a generation task, namely video generation, video prediction and video completion.<p> 
-      <p align="left" style="font-size:1.4em;">In each task, first we present results on Human 3.6m dataset. Columns named "Real" stands for real data (for your reference). Columns named "Input-n" stands for input frames where n is the frame number used (e.g. “Input-1” means the 1st frame in a video is used as input/constraint). The other columns show the qualitative results of each method. For our method we also show our pose sequence results, denoted as “Ours-Pose”. Each row corresponds to an action class, from top to bottom: <strong>Walking, Direction, Greeting, Sitting, Sitting Down</strong>. </p>
-        <p align="left" style="font-size:1.4em;">Then we present our results on UCF-101 dataset to illustrate our model's effectiveness in real-world. Input frames are labeled in the same fashion. Video action class includes <strong>JumpingJack, JumpingRope, TaiChi</strong>, which will be labeled accordingly.</p>
-  </div>
-  <div class="container-fluid bg-3 text-center">
-
-    <div class="row">
-      <h3>Comparison with Cai's work on human video generation</h3>
-    </div>
-    <div class="row">
-      <div class="col-sm-2 col-sm-offset-2">
-        <h3>Target Pose</h3>
-        <video width="700" controls autoplay loop>
-        <source src="qua_res/gt/Walking.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3>Cai's</h3>
-        <video width="700" controls autoplay loop>
-        <source src="qua_res/vgan/Walking.mp4" type="video/mp4">
-
-      </video>
-      </div>
-      <div class="col-sm-2">
-        <h3 id="ours">Ours</h3>
-        <video width="700" controls autoplay loop>
-        <source src="qua_res/ours_gen/Walking.mp4" type="video/mp4">
-
-      </video>
-      </div>
     </div>
 
   </div>
