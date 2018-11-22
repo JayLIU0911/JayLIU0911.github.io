@@ -25,5 +25,5 @@ All our results are in ```materials/```
 
 .  
 +-- materials  
-|   +-- images: Human3.6M Results
-|   +-- videos: Pose-Guided Human Video Generation Results
+|   +-- images: Human3.6M Results  
+|   +-- videos: Pose-Guided Human Video Generation Results  
