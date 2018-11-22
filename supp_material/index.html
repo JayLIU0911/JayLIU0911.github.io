@@ -63,6 +63,12 @@
     hr {
       border-top-color: #000000;
     }
+
+    .row {
+      /*display: flex;*/
+      /*flex-wrap: wrap;*/
+      /*padding: 0 4px;*/
+    }
   </style>
 </head>
 
@@ -80,7 +86,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#teaser">Human3.6M Resuls</a></li>
+          <li><a href="#teaser">Human3.6M Results</a></li>
           <li><a href="#videos">Pose-Guided Human Video Generation</a></li>
         </ul>
       </div>
@@ -97,39 +103,66 @@
     <div class="container text-center">
       <h2>1024 x 1024 Test Results on Human3.6M</h2>
       <p align="left" style="font-size:1.4em;">Given a reference image (leftmost column) and target poses (top row), HPN transfers the target pose seamlessly to the reference person in high resolution. Click on each sub-image to view full size image.<p> 
-    <div class="row">
-      <div>
-        <a href="materials/images/pose1.png" data-lightbox="pose"><img src="materials/images/pose1.png" style="width:10%"></a>
-        <a href="materials/images/pose2.png" data-lightbox="pose"><img src="materials/images/pose2.png" style="width:10%"></a>
-        <a href="materials/images/pose3.png" data-lightbox="pose"><img src="materials/images/pose3.png" style="width:10%"></a>
-        <a href="materials/images/pose4.png" data-lightbox="pose"><img src="materials/images/pose4.png" style="width:10%"></a>
-        <a href="materials/images/pose5.png" data-lightbox="pose"><img src="materials/images/pose5.png" style="width:10%"></a>
-      </div>
-    </div>
+      <div class="row">
+        <div>
+          <a href="materials/images/placeholder.png" data-lightbox="pose"><img src="materials/images/placeholder.png" style="width:10%"></a>
+          <a href="materials/images/pose_1.png" data-lightbox="pose"><img src="materials/images/pose_1.png" style="width:10%"></a>
+          <a href="materials/images/pose_2.png" data-lightbox="pose"><img src="materials/images/pose_2.png" style="width:10%"></a>
+          <a href="materials/images/pose_3.png" data-lightbox="pose"><img src="materials/images/pose_3.png" style="width:10%"></a>
+          <a href="materials/images/pose_4.png" data-lightbox="pose"><img src="materials/images/pose_4.png" style="width:10%"></a>
+          <a href="materials/images/pose_5.png" data-lightbox="pose"><img src="materials/images/pose_5.png" style="width:10%"></a>
+          <a href="materials/images/pose_6.png" data-lightbox="pose"><img src="materials/images/pose_6.png" style="width:10%"></a></div>
+        </div>
+      <div class="row">
+        <div>
+          <a href="materials/images/reference_1.png" data-lightbox="reference_1"><img src="materials/images/reference_1.png" style="width:10%"></a>
+          <a href="materials/images/result_11.png" data-lightbox="reference_1"><img src="materials/images/result_11.png" style="width:10%"></a>
+          <a href="materials/images/result_12.png" data-lightbox="reference_1"><img src="materials/images/result_12.png" style="width:10%"></a>
+          <a href="materials/images/result_13.png" data-lightbox="reference_1"><img src="materials/images/result_13.png" style="width:10%"></a>
+          <a href="materials/images/result_14.png" data-lightbox="reference_1"><img src="materials/images/result_14.png" style="width:10%"></a>
+          <a href="materials/images/result_15.png" data-lightbox="reference_1"><img src="materials/images/result_15.png" style="width:10%"></a>
+          <a href="materials/images/result_16.png" data-lightbox="reference_1"><img src="materials/images/result_16.png" style="width:10%"></a></div>
+        </div>
+      <div class="row">
+        <div>
+          <a href="materials/images/reference_2.png" data-lightbox="reference_2"><img src="materials/images/reference_2.png" style="width:10%"></a>
+          <a href="materials/images/result_21.png" data-lightbox="reference_2"><img src="materials/images/result_21.png" style="width:10%"></a>
+          <a href="materials/images/result_22.png" data-lightbox="reference_2"><img src="materials/images/result_22.png" style="width:10%"></a>
+          <a href="materials/images/result_23.png" data-lightbox="reference_2"><img src="materials/images/result_23.png" style="width:10%"></a>
+          <a href="materials/images/result_24.png" data-lightbox="reference_2"><img src="materials/images/result_24.png" style="width:10%"></a>
+          <a href="materials/images/result_25.png" data-lightbox="reference_2"><img src="materials/images/result_25.png" style="width:10%"></a>
+          <a href="materials/images/result_26.png" data-lightbox="reference_2"><img src="materials/images/result_26.png" style="width:10%"></a></div>
+        </div>
     </div>
   </div>
 
   <div class="container-fluid text-center" id="videos">
     <h2>Pose-Guided Human Video Generation</h2>
-    <p align="left" style="font-size:1.4em;">In this section we present an application of HPN on Pose-Guided Human Video Generation<p> 
-    <p align="left" style="font-size:1.4em;"><strong>Disclaimer</strong>: Our videos are generated frame-by-frame, unlike Cai et al which considers temporal coherence. Yet, our 1024 x 1024 video demonstrates significantly higher quality.</p>
+    <p align="left" style="font-size:1.4em;">In this section we present an application of HPN on Pose-Guided Human Video Generation<p>
     <p align="left" style="font-size:1.4em;"><strong>1</strong>. We compare our generation results with Cai et al (Deep video generation, prediction and completion of human action sequences, ECCV 2018)</p>
     <p align="left" style="font-size:1.4em;"><strong>2</strong>. We present additional results on Pose-Guided Human Video Generation</p>
+    <p align="left" style="font-size:1.4em;"><strong>Disclaimer</strong>: Our videos are generated frame-by-frame, unlike Cai et al which considers temporal coherence. Yet, our 1024 x 1024 video demonstrates significantly higher quality.</p>
   </div>
   <div class="container-fluid bg-3 text-center">
 
-    <div class="row">
+    <div>
       <h3><strong>Comparison with Cai et al</strong></h3>
     </div>
     <div class="row">
-      <div class="col-sm-2 col-sm-offset-3">
+      <div class="col-sm-2 col-sm-offset-2">
         <h3>Target Pose</h3>
         <video width="400" controls autoplay loop>
         <source src="materials/videos/compare_1_pose.mp4" type="video/mp4">
         </video>
       </div>
       <div class="col-sm-2">
-        <h3>Cai's</h3>
+        <h3>Ground Truth</h3>
+        <video width="400" controls autoplay loop>
+        <source src="materials/videos/compare_1_gt.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-sm-2">
+        <h3>Cai et al</h3>
         <video width="400" controls autoplay loop>
         <source src="materials/videos/compare_1_cai.mp4" type="video/mp4">
         </video>
@@ -142,9 +175,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2 col-sm-offset-3">
+      <div class="col-sm-2 col-sm-offset-2">
         <video width="400" controls autoplay loop>
         <source src="materials/videos/compare_2_pose.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-sm-2">
+        <video width="400" controls autoplay loop>
+        <source src="materials/videos/compare_1_gt.mp4" type="video/mp4">
         </video>
       </div>
       <div class="col-sm-2">
@@ -160,7 +198,7 @@
     </div>
 
     <br>
-    <div class="row">
+    <div>
       <h3><strong>Additional results</strong></h3>
     </div>
     <div class="row">
