@@ -1,5 +1,5 @@
 ---
-layout: archive
+<!-- layout: archive -->
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -15,7 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-**Ji Liu**\*, Heshan Liu\*, Yu-Wing Tai, Chi-Keung Tang. (\*Equal contributions)
+**Ji Liu**\*, Heshan Liu\*, Mang-Tik Chiu, Yu-Wing Tai, Chi-Keung Tang. (\*Equal contributions)
 * Project demo [here](https://jayliu0911.github.io/supp_material/index.html)
 * Novelty:
   * To disentangle structure and appearance inherent in a given reference image, we propose a new encoder-decoder architecture that successfully enables seamless human pose transfer
