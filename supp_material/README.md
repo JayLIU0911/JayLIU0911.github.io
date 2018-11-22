@@ -1,4 +1,4 @@
-# High-Resolution Pose Transfer via Progressive Training and Pose Disentangling
+# High-Resolution Pose Transfer via Progressive Training and Pose Disentangling (Paper ID 3899)
 Supplementary Material
 
 ## Getting Started
@@ -23,6 +23,7 @@ In case you need to refer to the original files for some reason, here are a few 
 
 All our results are in ```materials/```
 
-├───images (Human3.6M Results)
-
-└───videos (Pose-Guided Human Video Generation Results)
+.  
++-- materials  
+|   +-- images: Human3.6M Results
+|   +-- videos: Pose-Guided Human Video Generation Results
