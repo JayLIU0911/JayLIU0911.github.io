@@ -16,5 +16,5 @@ author_profile: true
 * Project demo [here](https://jayliu0911.github.io/Infectious-Disease-Spreading-Pattern-Visualizer-CX4242)
 
 **Line Dieting Chatbot**
-* A chatbot that provides personalized meal recommendation based on user’s eating habit, with features including Optical Character Recognition for menu
+* A chatbot that provides personalized meal recommendation based on user’s eating habit
 * Project demo [here](https://www.youtube.com/watch?v=0kIVp1MBxX0&feature=youtu.be)
