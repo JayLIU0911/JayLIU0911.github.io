@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-Bachelor of Engineering in Computer Science (**CGPA**: 3.7 / 4.3, **Major GPA**: 3.9 / 4.3 – Expected First Class Honors)
+Bachelor of Engineering in Computer Science (**CGPA**: 3.7 / 4.3, **Major GPA**: 3.9 / 4.3 – expected First Class Honors)
 * The Hong Kong University of Science and Technology (HKUST), Sep 2015 – Jun 2019
 * Academic Exchange: Georgia Institute of Technology, U.S. (**GPA**: 4.0 / 4.0, Jan – May 2018)
 * Awards: 
