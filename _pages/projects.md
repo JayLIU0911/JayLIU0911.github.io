@@ -17,4 +17,4 @@ author_profile: true
 
 **Line Dieting Chatbot**
 * A chatbot that provides personalized meal recommendation based on user’s eating habit
-* Project demo [here](https://www.youtube.com/watch?v=0kIVp1MBxX0&feature=youtu.be)
+* Two project demo videos [here](https://youtu.be/oUufWOLX2t0) and [here](https://youtu.be/WHmiDCJa5zE)
