@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year student major in Computer Science at the Hong Kong University of Science and Technology. My research interest lies in the intersection of computer vision and robotics. I aim to bring cutting-edge technologies to the industry to benefit people. 
+I am a graduate student studying Master of Science in Computer Vision at Carnegie Mellon University. I received Bachelor of Engineering in Computer Science at the Hong Kong University of Science and Technology in 2019. I am interested in developing real-world applications such as autonomous driving using cutting-edge computer vision technology. Currently I am actively searching for an intern position related to computer vision in U.S. My CV can be found [here](https://jayliu0911.github.io/files/cv.pdf).

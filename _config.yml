@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mr. Ji Liu"
 title_separator          : "-"
 name                     : &name "Mr. Ji Liu"
-description              : &description "Year 4 student major in Computer Science at HKUST"
+description              : &description "First year CS graduate student at CMU"
 url                      : https://JayLIU0911.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JayLIU0911.github.io"
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Mr. Ji Liu"
   avatar           : "portrait.png"
-  bio              : "Final year student major in CS"
-  location         : "HKUST, Hong Kong"
+  bio              : "First year CS graduate student at CMU"
+  location         : "Pittsburgh, PA, U.S."
   employer         : 
   googlescholar    : #"http://scholar.google.com/this-is-a-test"
   email            : 
@@ -109,7 +109,7 @@ author:
   xing             :
   youtube          :
   wikipedia        : 
-  email            : "jliubk@connect.ust.hk"
+  email            : "jiliu@andrew.cmu.edu"
 
 
 # Reading Files
